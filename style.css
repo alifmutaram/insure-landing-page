@@ -7,3 +7,36 @@
 body {
   font-family: "Karla", sans-serif;
 }
+
+/* STYLE FOR HEADER SECTION */
+.header {
+  height: 70px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5em 0 5em;
+  color: black;
+}
+.header h2 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.header ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.header ul li {
+  padding: 0.5em;
+}
+.header ul a {
+  text-decoration: none;
+  color: rgb(138, 128, 128);
+  font-weight: 600;
+}
+.view-list {
+  padding: 0.6em;
+  border: 2px solid black;
+  color: black !important;
+}
