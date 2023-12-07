@@ -9,7 +9,7 @@ body {
 }
 
 /* STYLE FOR HEADER SECTION */
-.header {
+.navbar {
   height: 70px;
   text-transform: uppercase;
   display: flex;
@@ -18,19 +18,19 @@ body {
   padding: 0 5em 0 5em;
   color: black;
 }
-.header h2 a {
+.navbar h2 a {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
-.header ul {
+.navbar ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
 }
-.header ul li {
+.navbar ul li {
   padding: 0.5em;
 }
-.header ul a {
+.navbar ul a {
   text-decoration: none;
   color: rgb(138, 128, 128);
   font-weight: 600;
