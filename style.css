@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +9,7 @@ body {
   font-family: "Karla", sans-serif;
 }
 
-/* STYLE FOR HEADER SECTION */
+/* STYLE FOR NAVBAR SECTION */
 .navbar {
   height: 70px;
   text-transform: uppercase;
@@ -39,4 +40,42 @@ body {
   padding: 0.6em;
   border: 2px solid black;
   color: black !important;
+}
+
+/*STYLE FOR HEADER SECTION  */
+header {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(6, 6, 59);
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "DM Serif Display", serif;
+}
+header .view-list {
+  padding: 0.6em;
+  border: 2px solid rgb(252, 250, 250);
+  color: rgb(241, 239, 239) !important;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header ul {
+  list-style-type: none;
+}
+.head-text {
+  border-top: 2px solid white;
+  width: 30vw;
+  height: 50vh;
+  margin-left: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.head-text p {
+  text-transform: capitalize;
+}
+.intro-svg {
+  width: 23vw;
 }
