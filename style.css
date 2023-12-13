@@ -49,9 +49,8 @@ header {
   background-color: rgb(6, 6, 59);
   color: white;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  font-family: "DM Serif Display", serif;
 }
 header .view-list {
   padding: 0.6em;
@@ -73,9 +72,20 @@ header ul {
   flex-direction: column;
   justify-content: space-evenly;
 }
+.head-text > h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 3em;
+}
 .head-text p {
   text-transform: capitalize;
 }
 .intro-svg {
   width: 23vw;
+  z-index: 1;
+}
+.image-intro {
+  width: 33%;
+  position: relative;
+  top: 7.5em;
+  left: 8em;
 }
