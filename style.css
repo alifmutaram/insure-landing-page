@@ -98,3 +98,36 @@ header ul {
   position: relative;
   top: -7em;
 }
+/* STYLE FOR DIFFERENT*/
+.different {
+  border-top: 2px solid gray;
+  width: 80%;
+  margin: auto;
+  padding-top: 2em;
+}
+.different h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 3em;
+  padding-bottom: 1em;
+}
+.card {
+  width: 25%;
+  padding: 1em;
+  text-transform: capitalize;
+}
+.card h2 {
+  font-family: "DM Serif Display", serif;
+}
+.card img,
+.card h2 {
+  padding: 0.5em 0.5em 0.5em 0;
+}
+.card h3 {
+  color: gray;
+  font-size: 1em;
+}
+.diff-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
