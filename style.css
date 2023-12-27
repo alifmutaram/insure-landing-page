@@ -131,3 +131,39 @@ header ul {
   flex-direction: row;
   justify-content: space-between;
 }
+/* STYLE FOR FIND SECTION */
+.find {
+  width: 70%;
+  height: 12em;
+  padding: 2em;
+  box-sizing: border-box;
+  margin: 5em auto auto auto;
+  background-color: hsl(256, 26%, 20%);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.find h1 {
+  color: white;
+  font-family: "DM Serif Display", serif;
+  text-transform: capitalize;
+}
+.find ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  border: 2px solid white;
+  padding: 0.3em;
+}
+.find-section {
+  list-style-type: none;
+  z-index: 12;
+}
+.bg-how {
+  position: absolute;
+  right: 13em;
+  height: 12em;
+  /* z-index: -99; */
+}
